@@ -12,8 +12,30 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="About" component={About} />
+        <Stack.Screen
+          name="Home"
+          component={Home}
+          options={{
+            title: 'Inicio',
+            headerStyle: {backgroundColor: 'blue'},
+            headerTitleStyle: {color: '#FFF', fontSize: 20, fontWeight: 'bold'},
+            headerTitleAlign: 'center',
+          }}
+        />
+        <Stack.Screen
+          name="About"
+          component={About}
+          options={{
+            title: 'Nosotros',
+            headerStyle: {
+              backgroundColor: 'red',
+              fontSize: 20,
+              fontWeight: 'bold',
+            },
+            headerTitleStyle: {color: '#FFF'},
+            headerTitleAlign: 'center',
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
