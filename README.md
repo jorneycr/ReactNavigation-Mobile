@@ -107,4 +107,4 @@ export default App;
 
 ### Oficial Documentation
 
-#`https://reactnavigation.org/docs/hello-react-navigation`
+`https://reactnavigation.org/docs/hello-react-navigation`
