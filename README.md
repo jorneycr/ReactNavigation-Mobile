@@ -53,6 +53,9 @@ npx react-native run-android
 
 # In android\app\src\main\java\com\reactnatigation\MainActivity.kt
 
+import android.os.Bundle;
+
+
 # inside of the MainActivity: ReactActivity() { .... }, add at the end the next code
 
 override fun onCreate(savedInstanceState: Bundle?) {
