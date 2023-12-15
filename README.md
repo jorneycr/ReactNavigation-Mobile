@@ -10,13 +10,9 @@ First, you will need to start **Metro**, the JavaScript _bundler_ that ships _wi
 
 To start Metro, run the following command from the _root_ of your React Native project:
 
-```bash
+````bash
 # using npm
 npm start
-
-# OR using Yarn
-yarn start
-```
 
 ## Step 2: Start your Application
 
@@ -30,17 +26,7 @@ npm run android
 
 # OR using Yarn
 yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
+````
 
 ## React navigator
 
